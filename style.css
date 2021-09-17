@@ -1,0 +1,56 @@
+body {
+	font:  "Raleway", sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	top: 15%;
+	background: linear-gradient(to right, red, yellow);
+	padding-top: 2%;
+}
+
+div.container {
+	margin: 3% 2.5%;
+}
+
+#start-color, #end-color {
+	width: 10em;
+}
+
+.row {
+	padding: 15px;
+}
+
+.row.additional-top-spacing {
+	padding-top: 50px;
+}
+
+.custom-font {
+	font: 600 3em "Raleway", sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	width: 100%;
+}
+
+.content {
+	letter-spacing: 0.2em;
+	font-size: 1.3em;
+}
+
+.css-format {
+	text-transform: lowercase;
+	letter-spacing: 0.01em;
+	font-size: 0.75em;
+	font-style: italic;
+}
+
+
+.btn.btn-secondary.btn-sm {
+	background: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(255, 255, 0, 0.5));
+}
+
+#random-color {
+	color: rgba(0, 0, 0, 0.6);
+}

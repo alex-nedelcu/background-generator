@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Background generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+	<h1 class="custom-font title">Background Generator</h1>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-4"></div>
+			<div class="col text-center"><input type="color" id="start-color" name="start-color" value="#ff0000"></div>
+			<div class="col text-center"><input type="color" id="end-color" name="end-color" value="#ffff00"></div>
+			<div class="col-4"></div>
+		</div>
+		<div class="row">
+			<div class="col text-center"><button id="random-color" class="btn btn-secondary btn-sm">Generate random background</button></div>
+		</div>
+		<div class="row additional-top-spacing">
+			<div class="col text-center custom-font content">Current CSS Background</div>
+		</div>
+		<div class="row">
+			<div class="col text-center custom-font content css-format" id="output-text">
+				background: linear-gradient(to right, #ff0000, #ffff00);
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
